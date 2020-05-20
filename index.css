@@ -1,0 +1,243 @@
+*{
+    user-select: none;
+    -webkit-user-select: none;
+    outline: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 1.15rem;
+    font-family: sans-serif;
+    transition: 0.4s ease-in-out;
+    object-fit: cover;
+    scroll-behavior: smooth;
+    outline: none;
+}
+html,body{
+    transition: 0ms;
+}
+.line{
+    height: .23rem;
+    background: linear-gradient(90deg,rgb(9, 255, 0),rgb(47, 0, 255),rgb(0, 255, 179),rgb(252, 185, 0),rgb(162, 0, 255),rgb(3, 255, 234)) ;
+    border-radius: .3rem;
+    background-size: 700%;
+    animation: gradient 15s infinite ease-in-out ;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+    font-size: default;
+    text-transform: capitalize;
+}
+h2{font-size: 2rem;}
+h3{font-size: 1.7rem;}
+h4{font-size: 1.4rem;}
+h1{font-size: 2.4rem;}
+.s-start{
+    justify-self: flex-start;
+}
+.s-end{
+    justify-self: self-end;
+}
+.start{
+    justify-content: flex-start;
+}
+.end{
+    justify-content: flex-end;
+}
+.h{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.v{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.center{
+    justify-content: center;
+}
+.w-0{
+    width: 0%;
+}
+.w-25{
+    width:24%;
+}
+.w-33{
+    width:calc(33.33% - 1%);
+}
+.w-50{
+    width: 49%;
+}
+.w-66{
+    width:calc(66.66% - .4rem);
+}
+.w-75{
+    width:74%;
+}
+.w-85{width: 85%;}
+.w-100{
+    width:100%;
+}
+.ww-100{
+    width: 100vw;
+}
+.ww-90{
+    width: 90vw;
+}
+.ww-80{
+    width: 80vw;
+}
+.ww-50{
+    width: 50vw;
+}
+.card-holder{
+    justify-content: space-evenly;
+}
+.left{
+    align-items:flex-start ;
+}
+.card{
+    max-width: 25rem;
+    min-width: 12rem;
+    height: calc(100% + 3rem);
+    margin: .5rem 0;
+    border-radius: .3rem;
+    cursor: pointer;
+    box-shadow: 0 .05rem .6rem -.3rem rgb(69, 69, 70);
+}
+.card:hover{
+    box-shadow: 0 .25rem .6rem -.2rem rgb(19, 3, 165);
+
+}
+.card-img{
+    position: relative;
+    content: attr(position);
+    object-fit: cover;
+    object-position: center;
+    width: 100%;    
+    height: 14vw;
+    border-radius:.3rem .3rem 0 0 ;
+    background-color: rgb(240, 240, 240);
+}
+.card-img>
+
+.card-content{
+    padding: .5rem;
+}
+.c-desc{
+    color: rgb(78, 78, 78);
+}
+html , body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+.nav{
+    color: rgb(0,0,0,);
+    z-index: 3;
+    position: fixed;
+    background: #ffffff;
+    width: calc(100% - 2rem);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .3rem .7rem;
+    border-radius: 0 0 .4rem .4rem ;
+}
+.navlogo{
+    color: #000000;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.navlinks{
+    border: none;
+    font-size: 1.15rem;
+    background-color: #ffffff00;
+    border-color: #454545;
+    margin-right: .3rem;
+    cursor: pointer;
+    margin-left: .3rem;
+    color: #000000;
+    border-radius: 1rem;
+    padding: .1rem 1rem .25rem 1rem ;
+}
+.navlinks:hover{
+    background-color: #ffffff;
+    box-shadow: 0 0.2rem 0.6rem -.2rem rgb(9, 1, 56);
+}
+ .navlinksettings ,.account-logo{
+    width: 2.2rem;
+    object-fit: cover;
+    transition: .5s ease;
+    height: 2.2rem;
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+}
+.navlinksettings:hover{
+    transition: .5s ease;
+    box-shadow: 0 0 0.7rem -.1rem rgb(9, 1, 56);
+}
+.top{
+    width: 100vw;
+    padding-top:3rem;
+    background-color: #000000;
+    height: 7rem;
+}
+.section-title{
+    padding: 1rem .4rem;
+}
+.as16-9{
+    position: relative;
+    height: 9.6rem;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;    
+    border-radius:.3rem .3rem 0 0 ;
+    background-color: rgb(240, 240, 240);
+}
+.descriptions{
+    max-width: 30rem;
+    padding: 1rem 1rem 2rem 1rem;
+}
+@keyframes gradient {
+    0%{background-position-x:left ;}
+    50%{background-position-x: right;}
+    100%{background-position-x: left;}
+}
+@media (orientation:portrait){
+    .w-25,.w-33,.w-50,.w-66,.w-75,.w-100,
+    .ww-50,.ww-80,.ww-90,.ww-100,.line{
+        width: 100%;
+        margin:.1rem 0;
+    }
+    .card{
+        width: 49%;
+        min-width: 0;
+    }
+    .card-img{
+        height:calc(49vw - 1.6rem);
+    }
+    .card-holder{
+        padding: 1rem .6rem;
+    }
+    .navlogo,.navlinksettings,.account-logo{
+        display: none;
+    }
+    .navlinks:nth-child(1){
+        display: none;
+    }
+    .navlinks{
+        padding: .5rem .3rem;
+        border-radius:.3rem ;
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+    }
+    .w-33{
+        width: 100%;
+    }
+}
