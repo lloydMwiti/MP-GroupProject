@@ -7,7 +7,7 @@ the purpose of the project is to build a website to show case potential home des
  -Horrace Achapa  \
  -Lloyd Mwiti  \
  -Jonathan Asule  \
- -Daniel Kipkosgei  \
+ -Daniel Kipkosgei  
 
 ### Technologies and Languages Used 
 HTML , CSS , JavaScript , Bootstrap
