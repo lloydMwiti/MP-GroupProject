@@ -3,9 +3,9 @@
 the purpose of the project is to build a website to show case potential home designs from designers to anyone potentially interested in finding ideas for designing their own home.
 
 ### Contributing Members
+ -Lloyd Mwiti (scram master) \
  -Wenslaus Makumba   \
  -Horrace Achapa  \
- -Lloyd Mwiti  \
  -Jonathan Asule  \
  -Daniel Kipkosgei  
 
@@ -13,7 +13,7 @@ the purpose of the project is to build a website to show case potential home des
 HTML , CSS , JavaScript , Bootstrap
 
 ### How To Set Up
-The work on the master branch should be code complete.
+The work on the master branch should be code complete.  \
 the preview is here: 
 
 ### Developers Content
