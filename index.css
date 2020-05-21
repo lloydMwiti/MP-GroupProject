@@ -11,9 +11,21 @@
     object-fit: cover;
     scroll-behavior: smooth;
     outline: none;
+    z-index: 1;
 }
 html,body{
     transition: 0ms;
+}
+body{
+    background: url(images/PYRKI_mistypines_FVpO.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+div{
+    background: white;
+}
+.no-color{
+    background-color: none;
 }
 .line{
     height: .23rem;
@@ -37,6 +49,10 @@ h1{font-size: 2.4rem;}
 }
 .s-end{
     justify-self: self-end;
+}
+.s-center{
+    justify-self: center;
+    align-self: center;
 }
 .start{
     justify-content: flex-start;
@@ -120,13 +136,15 @@ h1{font-size: 2.4rem;}
     border-radius:.3rem .3rem 0 0 ;
     background-color: rgb(240, 240, 240);
 }
-.card-img>
-
+.large{
+    font-size: 3.6rem;
+}
 .card-content{
     padding: .5rem;
 }
 .c-desc{
     color: rgb(78, 78, 78);
+    font-size: 1.05rem;
 }
 html , body{
     display: flex;
@@ -145,6 +163,7 @@ html , body{
     justify-content: space-between;
     padding: .3rem .7rem;
     border-radius: 0 0 .4rem .4rem ;
+    box-shadow: 0 .2rem .6rem -.3rem rgb(38, 0, 255);
 }
 .navlogo{
     color: #000000;
@@ -183,8 +202,18 @@ html , body{
 .top{
     width: 100vw;
     padding-top:3rem;
-    background-color: #000000;
-    height: 7rem;
+    background:rgba(11, 0, 37, 0.5);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 75vh;
+    max-height: 35rem;
+}
+.p-statement{
+    z-index: 0;
+    text-align: center;
+    color: white;
+    max-width: 30rem;
 }
 .section-title{
     padding: 1rem .4rem;
@@ -199,7 +228,6 @@ html , body{
     background-color: rgb(240, 240, 240);
 }
 .descriptions{
-    max-width: 30rem;
     padding: 1rem 1rem 2rem 1rem;
 }
 @keyframes gradient {
@@ -212,6 +240,9 @@ html , body{
     .ww-50,.ww-80,.ww-90,.ww-100,.line{
         width: 100%;
         margin:.1rem 0;
+    }
+    .p-statement{
+        padding: .5rem 1rem;
     }
     .card{
         width: 49%;
@@ -230,14 +261,22 @@ html , body{
         display: none;
     }
     .navlinks{
-        padding: .5rem .3rem;
+        padding: 0;
         border-radius:.3rem ;
     }
     .nav{
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
+        height: fit-content;
+        max-height: 0;
+
     }
     .w-33{
         width: 100%;
+    }
+    .p-statement{
+        height: 80vh;
+        max-height: 0;
     }
 }
