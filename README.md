@@ -14,14 +14,16 @@ HTML , CSS , JavaScript , Bootstrap
 
 ### How To Set Up
 The work on the master branch should be code complete.  \
-the preview is here: 
+the preview is here: https://lloydmwiti.github.io/MP-GroupProject/.
+
 
 ### Developers Content
- Wenslaus Makumba  -  \
- Horrace Achapa    -  \
- Lloyd Mwiti       -  \
- Jonathan Asule    -  \
- Daniel Kipkosgei  -  
+ Wenslaus Makumba  -  Designers & design page\
+ Horrace Achapa    -  < MIA >\
+ Lloyd Mwiti       - Landing page\ 
+ Jonathan Asule    - Information Page\
+ Daniel Kipkosgei  - Contact form\
+ Jesse Kibungei    - Landing page footer
 
 ### License and Usage
 the work is not licensed and no warranty or guarantee of support is offered. 
