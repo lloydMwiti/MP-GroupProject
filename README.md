@@ -13,6 +13,7 @@ the purpose of the project is to build a website to show case potential home des
 ### Technologies and Languages Used 
 HTML , CSS , JavaScript , Bootstrap
 
+
 ### How To Set Up
 The work on the master branch should be code complete.  \
 the preview is here: 
