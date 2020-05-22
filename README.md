@@ -11,7 +11,9 @@ the purpose of the project is to build a website to show case potential home des
  -Daniel Kipkosgei  
 
 ### Technologies and Languages Used 
-HTML , CSS , JavaScript , Bootstrap
+HTML 
+CSS
+JavaScript , Bootstrap
 
 
 ### How To Set Up
