@@ -202,9 +202,6 @@ The family room  was intended as a multipurpose room, the center of family activ
 			// We only want these styles applied when javascript is enabled
 			$('div.navigation').css({'width' : '320px', 'float' : 'right'});
 			$('div.content').css('display', 'block');
-	
-			// Initially set opacity on thumbs and add
-			// additional styling for hover effect on thumbs
 			var onMouseOutOpacity = 0.5;
 			$('#thumbs ul.thumbs li span').opacityrollover({
 				mouseOutOpacity:   onMouseOutOpacity,
@@ -212,8 +209,6 @@ The family room  was intended as a multipurpose room, the center of family activ
 				fadeSpeed:         'fast',
 				exemptionSelector: '.selected'
 			});
-			
-			// Initialize Advanced Galleriffic Gallery
 			var gallery = $('#thumbs').galleriffic({
 				delay:                     7000,
 				numThumbs:                 12,
