@@ -1,10 +1,11 @@
 # Home Designs
+
 ### What its about
 the purpose of the project is to build a website to show case potential home designs from designers to anyone potentially interested in finding ideas for designing their own home.
 
 ### Contributing Members
  -Lloyd Mwiti (scram master) \
- -Wenslaus Makumba   \
+ -Wenslaus Makumba -designers and design page  \
  -Horrace Achapa  \
  -Jonathan Asule  \
  -Daniel Kipkosgei  
