@@ -25,4 +25,4 @@ the preview is here:
  Daniel Kipkosgei  -  
 
 ### License and Usage
-the work is not licensed and no warranty or guarantee of support is offered. 
+The work is not licensed and no warranty or guarantee of support is offered. 
