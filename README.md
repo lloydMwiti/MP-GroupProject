@@ -13,7 +13,8 @@ the purpose of the project is to build a website to show case potential home des
 ### Technologies and Languages Used 
 HTML 
 CSS
-JavaScript , Bootstrap
+JavaScript 
+Bootstrap
 
 
 ### How To Set Up
