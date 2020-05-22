@@ -17,11 +17,12 @@ The work on the master branch should be code complete.  \
 the preview is here: 
 
 ### Developers Content
- Wenslaus Makumba  -  \
- Horrace Achapa    -  \
- Lloyd Mwiti       -  \
- Jonathan Asule    -  \
- Daniel Kipkosgei  -  
+ Wenslaus Makumba  -  designers page \
+ Horrace Achapa    -  designs page \
+ Jesse Kibungei    -  Landing page footer \
+ Lloyd Mwiti       -  landing page \
+ Jonathan Asule    -  Information page \
+ Daniel Kipkosgei  -  Contact us form
 
 ### License and Usage
 the work is not licensed and no warranty or guarantee of support is offered. 
