@@ -19,7 +19,7 @@ the preview is here: https://lloydmwiti.github.io/MP-GroupProject/.
 
 ### Developers Content
  Wenslaus Makumba  -  Designers & design page\
- Horrace Achapa    -  < MIA >\
+ Horrace Achapa    -  (Unavailable)\
  Lloyd Mwiti       - Landing page\ 
  Jonathan Asule    - Information Page\
  Daniel Kipkosgei  - Contact form\
